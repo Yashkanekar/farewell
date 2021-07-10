@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #A2D6F9,#072AC8);
+    background-repeat: repeat-y ;
+    /* background-color: #A2D6F9; */
+}
+
+.site-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    height: 650px;
+    margin:2% 4%; 
+        
+}
+
+.card{
+    background-color: #FF5C4D;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s ease;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -8px, 0px);
+}
+
+.card>h1{
+    font-size: 60px;
+    font-family: 'Graduate', cursive;
+}
+
+.card>button{ 
+    font-family: 'Graduate', cursive;
+    color:black;
+    padding: 6px 20px;
+    border: 2px solid black;
+    background-color: rgba(245, 245, 245, 0.459);
+    margin: 17px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card>button:hover{
+    color:whitesmoke ;
+    background-color: black;
+}
+
+.outer-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(209, 167, 120, 0.4);
+    top: 0;
+    left: 0;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s;
+    
+}
+
+.inner-modal{
+    padding: 2rem;
+    border-radius: 5px;
+    width: 25%;
+    height: 35%;
+    background-image: linear-gradient(120deg, #e2c35d,#d88771);
+    display: flex;
+    justify-content: center;
+    /* align-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-100%);
+    transition: transform 1.5s;
+
+}
+.outer-modal.active{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.outer-modal.active .inner-modal{
+    transform: translateY(0);
+
+}
+
+.inner-modal > button{
+    font-family: 'Graduate', cursive;
+    color:black;
+    padding: 6px 20px;
+    border: 2px solid black;
+    background-color: rgba(245, 245, 245, 0.459);
+    margin: 17px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+
