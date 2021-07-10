@@ -64,7 +64,7 @@ body{
     top: 0;
     left: 0;
     position: fixed;
-    opacity: 0;
+    visibility: hidden;
     pointer-events: none;
     transition: opacity 0.4s;
     
@@ -88,7 +88,7 @@ body{
 
 }
 .outer-modal.active{
-    opacity: 1;
+    visibility: visible;
     pointer-events: all;
 }
 
@@ -108,7 +108,7 @@ body{
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
-/*     display: none; */
+
 }
 
 .inner-modal .question{
@@ -124,3 +124,8 @@ body{
     color: #FFB703;
     /* display: none; */
 }
+
+.inner-btn.hide, .hidden{
+    display: none;
+}
+

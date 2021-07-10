@@ -3,7 +3,8 @@ const outermodal = document.querySelector('.outer-modal');
 const innermodal = document.querySelector('.inner-modal');
 let questionString; 
 let answerString;
-const revealAnswer = document.querySelector(".inner-btn");
+const revealAnswerButton = document.querySelector(".inner-btn");
+const answerSpan = document.querySelector(".hidden") ;
 
 cardButtons.forEach((button) =>
     button.addEventListener("click", handleClick)
@@ -68,13 +69,25 @@ function handleClick(event) {
             
     }
     question.innerText = questionString;
-    answer.innerText = answerString;
     outermodal.classList.add('active');
 
+    function revealAnswer(){
+
+        answerSpan.classList.remove("hidden")
+        answerSpan.classList.add("answer");
+        answerSpan.innerText = answerString ;
+        
+        revealAnswerButton.classList.add("hide");        
+    }
+    revealAnswerButton.addEventListener("click", revealAnswer);
+    
 }
 
 function outsideClick(){
+    answerSpan.classList.remove("answer")
+    answerSpan.classList.add("hidden");
     outermodal.classList.remove('active');
+    revealAnswerButton.classList.remove("hide");
 }
 
 outermodal.addEventListener("click", function(event){
@@ -85,10 +98,5 @@ outermodal.addEventListener("click", function(event){
 });
 
 
-function revealAnswer(){
-    
-    
 
-}
-revealAnswer.addEventListener("click", revealAnswer);
 
