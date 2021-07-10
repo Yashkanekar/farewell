@@ -73,8 +73,8 @@ body{
 .inner-modal{
     padding: 2rem;
     border-radius: 5px;
-    width: 25%;
-    height: 35%;
+    width: 40%;
+    height: 45%;
     background-color: #023047;
     font-family:'Graduate', cursive;
     display: flex;

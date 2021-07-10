@@ -18,52 +18,52 @@ function handleClick(event) {
 
     switch(number){
         case '1':
-            questionString  = "question 1"
-            answerString  = "answer 1"
+            questionString  = "Jack of all trades, Madhuri Dixit of SoW"
+            answerString  = "Sakshi Kadam!"
             break;
         case '2':
-            questionString  = "question 2"
-            answerString  = "answer 2"
+            questionString  = "Mr.UPI, PLayboii, Keeper of secrets"
+            answerString  = "Shaad Qureshi!"
             break;
         case '3':
-            questionString  = "question 3"
-            answerString  = "answer 3"
+            questionString  = "Open hearted, Sasta Farhaan Akhtar"
+            answerString  = "Shashank Avhad!"
             break;
         case '4':
-            questionString  = "question 4"
-            answerString  = "answer 4"
+            questionString  = "Night owl,Grandmaster, Temperamental"
+            answerString  = "Megh Kurlekar!"
             break;
         case '5':
-            questionString  = "question 5"
-            answerString  = "answer 5"
+            questionString  = "Techie, Ekach chava, Intimidating"
+            answerString  = "Rohan Kokane!"
             break;
         case '6':
-            questionString  = "question 6"
-            answerString  = "answer 6"
+            questionString  = "Beloved Sir, Very friendly, Never gives party"
+            answerString  = "Aayush Sir🙏"
             break;
         case '7':
-            questionString  = "question 7"
-            answerString  = "answer 7"
+            questionString  = "Content Creator, Never replies in the group"
+            answerString  = "Adesh Patki!"
             break;
         case '8':
-            questionString  = "question 8"
-            answerString  = "answer 8"
+            questionString  = "Talkative, Has 1000 brothers except THE ONE"
+            answerString  = "Prithvi Dambal!"
             break;
         case '9':
-            questionString  = "question 9"
-            answerString  = "answer 9"
+            questionString  = "Jolly, Team person, Calm"
+            answerString  = "Rutuja Jadhav!"
             break;
         case '10':
-            questionString  = "question 10"
-            answerString  = "answer 10"
+            questionString  = "Innocent, Password keeper, Smart"
+            answerString  = "Mrunal Kumbhar!"
             break;
         case '11':
-            questionString  = "question 11"
-            answerString  = "answer 11"
+            questionString  = "A head full of ideas, Miss Ghumakkad"
+            answerString  = "Janhavi Jadhav!"
             break;
         case '12':
-            questionString  = "question 12"
-            answerString  = "answer 12"
+            questionString  = "Overdriven, Artistic, NRI"
+            answerString  = "Aryan Garg!"
             break;
         
             
