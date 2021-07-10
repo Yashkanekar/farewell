@@ -108,7 +108,7 @@ body{
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
-    display: none;
+/*     display: none; */
 }
 
 .inner-modal .question{
