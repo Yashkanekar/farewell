@@ -39,19 +39,19 @@ function handleClick(event) {
             answerString = "Rohan Kokane"
             break;
         case '6':
-            questionString = "Beloved Sir, Very friendly, Never gives party"
-            answerString = "Aayush Sir🙏"
-            break;
-        case '7':
             questionString = "Content Creator, Never replies in the group"
             answerString = "Adesh Patki"
             break;
+            case '7':
+            questionString = "Beloved Sir, Very friendly, Never gives party"
+            answerString = "Aayush Sir🙏"
+            break;
         case '8':
-            questionString = "Talkative, Has 1000 brothers except THE ONE"
+            questionString = "Talkative, Has 1000 brothers except 'THE ONE'"
             answerString = "Prithvi Dambal"
             break;
         case '9':
-            questionString = "Jolly, Team person, Calm"
+            questionString = "Jolly, Team person, Single point of contact"
             answerString = "Rutuja Jadhav"
             break;
         case '10':
@@ -63,10 +63,9 @@ function handleClick(event) {
             answerString = "Janhavi Jadhav"
             break;
         case '12':
-            questionString = "Overdriven, Artistic, NRI"
+            questionString = "Bewafa Aashiq, Artistic, NRI"
             answerString = "Aryan Garg"
             break;
-
 
     }
     question.innerText = questionString;
